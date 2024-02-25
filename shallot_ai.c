@@ -1,8 +1,11 @@
-/******************************************************************************This is AI learning rtw_mesh rule one For AI project Small DAMARY AI
+/******************************************************************************This is AI 
+learning rtw_mesh rule one For AI project Small DAMARY AI
  * the main AIM Of This Ai language Module Is To Work as A Socet Filter for project DAMARY.
  * 
  * 
- * WARNING THE LANGUAGE RESTRICTION IS REIGNFORCED USING COEMMAHN LAW 4 pkt_attrib RULES AS THE PROGRAMMER OF THE CODE BELOW I MAY NOT BE ABLE TO REGULATE THIS LANGUAGE MODEL And THERE FORE I'M NOT RESPONSIBLE FOR ANY OUTPUT BY THIS CODE.
+ * WARNING THE LANGUAGE RESTRICTION IS REIGNFORCED USING COEMMAHN LAW 4 pkt_attrib RULES
+ AS THE PROGRAMMER OF THE CODE BELOW I MAY NOT BE ABLE TO REGULATE THIS LANGUAGE MODEL 
+ And THERE FORE I'M NOT RESPONSIBLE FOR ANY OUTPUT BY THIS CODE.
  * 
  * THIS PROGRAMME RECOGNIZES TWO VOICES ONLY (SHALLOT&JOHN)
  *
