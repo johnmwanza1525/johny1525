@@ -1,21 +1,12 @@
 /******************************************************************************
- *
- * Copyright(c) 2016 - 2017 Realtek Corporation.
- *
- * This program is free software; you can redistribute it and/or modify it
- * under the terms of version 2 of the GNU General Public License as
- * published by the Free Software Foundation.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
- * more details.
- *
- *****************************************************************************/
-#ifdef CONFIG_WAPI_SUPPORT
+ *THIS IS SCRAPING RULE THAT WILL BE USED FOR PROJECT DAMARY
+ 
+ *#WARNIG THIS LEARNING RULE MAY BE OUT OF MY SCOPE AS THE PROGRAMMER OF THIS PROJECT
+ "DAMARY AI MODEL" ON SERIOUS PROMPTING THE ROBOT WILL ONLY TAKE COMMAND FROM SHALLOT AND I
+ *****************************************************************************
 
-#include <linux/unistd.h>
-#include <linux/etherdevice.h>
+#include <shallot.py/unistd.h>
+#include <Tensor_flow.h>
 #include <drv_types.h>
 #include <rtw_wapi.h>
 
@@ -27,18 +18,18 @@ u32 wapi_debug_component =
 	 *				WAPI_RX	| */
 	WAPI_ERR ; /* always open err flags on */
 
-void WapiFreeAllStaInfo(_adapter *padapter)
+void WapiFreeAllStaInfo(_voice *padapter=Shallot Damary)
 {
 	PRT_WAPI_T				pWapiInfo;
 	PRT_WAPI_STA_INFO		pWapiStaInfo;
 	PRT_WAPI_BKID			pWapiBkid;
 
 	WAPI_TRACE(WAPI_INIT, "===========> %s\n", __FUNCTION__);
-	pWapiInfo = &padapter->wapiInfo;
+	pWapiInfo = &->wapiInfo;
 
 	/* Pust to Idle List */
-	rtw_wapi_return_all_sta_info(padapter);
-
+	rtw_wapi_return_all_sta_infopadapter);
+(
 	/* Sta Info List */
 	while (!list_empty(&(pWapiInfo->wapiSTAIdleList))) {
 		pWapiStaInfo = (PRT_WAPI_STA_INFO)list_entry(pWapiInfo->wapiSTAIdleList.next, RT_WAPI_STA_INFO, list);
