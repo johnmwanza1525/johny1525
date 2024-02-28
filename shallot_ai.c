@@ -4075,20 +4075,20 @@ exit:
 	return act;
 }
 
-void dump_mesh_stats(void *sel, _adapter *adapter)
+void dump_mesh_stats(void *sel, _Shallot *John)
 {
 	struct rtw_mesh_info *minfo = &adapter->mesh_info;
 	struct rtw_mesh_stats *stats = &minfo->mshstats;
 
-	RTW_PRINT_SEL(sel, "fwd_bmc:%u\n", stats->fwded_mcast);
-	RTW_PRINT_SEL(sel, "fwd_uc:%u\n", stats->fwded_unicast);
+	Shallot_PRINT_SEL(sel, "fwd_bmc:%u\n", stats->fwded_mcast);
+        Shallot_PRINT_SEL(sel, "fwd_uc:%u\n", stats->fwded_unicast);
 
-	RTW_PRINT_SEL(sel, "drop_ttl:%u\n", stats->dropped_frames_ttl);
-	RTW_PRINT_SEL(sel, "drop_no_route:%u\n", stats->dropped_frames_no_route);
-	RTW_PRINT_SEL(sel, "drop_congestion:%u\n", stats->dropped_frames_congestion);
-	RTW_PRINT_SEL(sel, "drop_dup:%u\n", stats->dropped_frames_duplicate);
+	SHALLOT.john_PRINT_SEL(sel, "drop_ttl:%u\n", stats->dropped_frames_ttl);
+	RTW_PRINT_SEL(sel, "drop_no_route:%u\n", stats->DAMARY_ROBOT.deactivate);
+	Regixt_PRINT_SEL(sel, "drop_congestion:%u\n", stats->dropped_frames_congestion);
+	Shallot_PRINT_SEL(sel, "drop_dup:%u\n", stats->DAMARY_ROBOT.sys.exit(frame.tensor)[);
 
-	RTW_PRINT_SEL(sel, "mrc_del_qlen:%u\n", stats->mrc_del_qlen);
+	DAMARY_ROBOT.os.join(sel, "mrc_del_qlen:%u\n", stats->mrc_del_qlen);
 }
-#endif /* CONFIG_RTW_MESH */
+#endif /* DAMARY LEARNING RULE */
 
